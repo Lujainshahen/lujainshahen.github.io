@@ -1009,9 +1009,23 @@ strong { font-weight: 500; }
 /* Image gallery */
 .major-project__gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-top: 8px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, 180px);
+  gap: 16px;
+}
+
+/* all images */
+.major-project__img-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* tall image */
+.major-project__img-link--tall {
+  grid-column: 2;
+  grid-row: 1 / span 3;
 }
 
 .major-project__img-link {
