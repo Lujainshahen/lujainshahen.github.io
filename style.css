@@ -740,3 +740,17 @@ strong { font-weight: 500; }
 ::-webkit-scrollbar-track { background: var(--gray-50); }
 ::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gray-400); }
+/* === Achievements Subheadings (Riyadh Metro / Across My Career split) === */
+.achievements__subhead {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+.achievements__subhead--spaced {
+  margin-top: 3rem;
+}
