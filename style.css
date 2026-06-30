@@ -1,23 +1,24 @@
 /* ============================================
    LUJAIN SHAHEEN — Executive Portfolio
    Design: Luxury Editorial Minimalism
+   Palette: Deep Plum / Warm Cream / Soft Gold
    ============================================ */
 
 :root {
-  --black: #0a0a0a;
-  --white: #fafaf9;
-  --gray-50: #f5f5f4;
-  --gray-100: #e7e5e4;
-  --gray-200: #d6d3d1;
-  --gray-300: #a8a29e;
-  --gray-400: #78716c;
-  --gray-500: #57534e;
-  --gray-600: #44403c;
-  --gray-700: #292524;
-  --gray-800: #1c1917;
-  --gold: #b8965a;
-  --gold-light: #d4b88c;
-  --gold-subtle: rgba(184, 150, 90, 0.08);
+  --black: #5C2A3E;
+  --white: #FAF5F0;
+  --gray-50: #F4ECE3;
+  --gray-100: #E8DBD0;
+  --gray-200: #D7C3B5;
+  --gray-300: #B69A8A;
+  --gray-400: #9C8275;
+  --gray-500: #7A5F58;
+  --gray-600: #5E453F;
+  --gray-700: #7A3B52;
+  --gray-800: #46202F;
+  --gold: #C89B5C;
+  --gold-light: #DCC093;
+  --gold-subtle: rgba(200, 155, 92, 0.10);
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body: 'Outfit', -apple-system, sans-serif;
   --section-pad: clamp(80px, 12vw, 160px);
@@ -70,7 +71,7 @@ strong { font-weight: 500; }
 }
 
 .nav--scrolled {
-  background: rgba(250, 250, 249, 0.92);
+  background: rgba(250, 245, 240, 0.92);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 14px 0;
@@ -194,7 +195,7 @@ strong { font-weight: 500; }
   font-size: clamp(120px, 18vw, 300px);
   font-weight: 300;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(0,0,0,0.03);
+  -webkit-text-stroke: 1px rgba(92, 42, 62, 0.05);
   letter-spacing: 0.05em;
   user-select: none;
   pointer-events: none;
@@ -261,7 +262,7 @@ strong { font-weight: 500; }
 .btn--primary:hover {
   background: var(--gray-700);
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 30px rgba(92, 42, 62, 0.18);
 }
 
 .btn--outline { background: transparent; color: var(--black); border: 1px solid var(--gray-200); }
@@ -375,7 +376,7 @@ strong { font-weight: 500; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
-  border: 1px solid rgba(184, 150, 90, 0.25);
+  border: 1px solid rgba(200, 155, 92, 0.3);
   padding: 4px 14px;
   margin-bottom: 16px;
   font-weight: 400;
@@ -483,7 +484,7 @@ strong { font-weight: 500; }
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  border: 1px solid rgba(184, 150, 90, 0.25);
+  border: 1px solid rgba(200, 155, 92, 0.3);
   color: var(--gold);
   font-size: 13px;
   font-weight: 400;
@@ -574,8 +575,8 @@ strong { font-weight: 500; }
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  background: linear-gradient(135deg, var(--gold-subtle), rgba(184, 150, 90, 0.03));
-  border: 1px solid rgba(184, 150, 90, 0.15);
+  background: linear-gradient(135deg, var(--gold-subtle), rgba(200, 155, 92, 0.03));
+  border: 1px solid rgba(200, 155, 92, 0.18);
   padding: 24px 28px;
 }
 
@@ -652,7 +653,7 @@ strong { font-weight: 500; }
 
 .case__meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
 
-.case__tag { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(184, 150, 90, 0.25); padding: 4px 14px; font-weight: 400; }
+.case__tag { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(200, 155, 92, 0.3); padding: 4px 14px; font-weight: 400; }
 
 .case__details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 
@@ -691,7 +692,7 @@ strong { font-weight: 500; }
 
 .contact__lead { font-family: var(--font-display); font-size: clamp(22px, 2.5vw, 28px); font-weight: 400; color: var(--white); line-height: 1.5; margin-bottom: 16px; }
 
-.contact__text p { color: var(--gray-400); }
+.contact__text p { color: var(--gray-300); }
 
 .contact__links { display: flex; flex-direction: column; gap: 0; }
 
@@ -700,7 +701,7 @@ strong { font-weight: 500; }
 .contact__link:first-child { border-top: 1px solid var(--gray-700); }
 .contact__link:hover { padding-left: 12px; }
 
-.contact__link-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 4px; }
+.contact__link-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray-300); margin-bottom: 4px; }
 
 .contact__link-value { font-size: 16px; color: var(--white); transition: color 0.3s; }
 
@@ -713,7 +714,7 @@ strong { font-weight: 500; }
    ============================================ */
 .footer { background: var(--black); border-top: 1px solid var(--gray-800); padding: 24px 0; text-align: center; }
 
-.footer p { font-size: 12px; color: var(--gray-600); letter-spacing: 0.05em; }
+.footer p { font-size: 12px; color: var(--gray-300); letter-spacing: 0.05em; }
 
 /* ============================================
    ANIMATIONS
@@ -747,7 +748,7 @@ strong { font-weight: 500; }
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #888;
+  color: var(--gray-400);
   margin-bottom: 1.5rem;
 }
 
